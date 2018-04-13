@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+		float r,s;
+		float pi=3.1415926; 
+	printf("pi=3.1415926,请输入圆的半径r:");
+	scanf("%f",&r);
+	s=pi*r*r;
+	printf("圆的面积:%f\n",s);
+	return 0;
+}
